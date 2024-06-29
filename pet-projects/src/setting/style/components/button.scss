@@ -1,0 +1,23 @@
+.header {
+    button {
+        padding: 5px 10px;
+        margin-left: 10px;
+        background: linear-gradient(rgba(255, 255, 255, 0.067), #00ff5e);
+        border-radius: 5px;
+        border: none;
+    }
+
+    button:hover {
+        opacity: 0.7;
+    }
+
+    button:active {
+        z-index: -5px;
+    }
+}
+
+a,
+button,
+link {
+    cursor: pointer;
+}

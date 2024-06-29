@@ -1,0 +1,43 @@
+@import './base/reset.scss';
+@import './base/typography';
+@import './variables';
+@import './mixins';
+@import './components/button.scss';
+@import './components/card';
+@import './layot/header.scss';
+@import './layot/footer';
+@import './theme/dark';
+@import './theme/light';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+
+    h2 {
+        font-size: 36px;
+        font-family: "GreatVibes-Regular";
+        font-weight: 800;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    a:hover {
+        opacity: 0.7;
+        transition: 0.2s;
+    }
+
+}
